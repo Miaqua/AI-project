@@ -37,6 +37,7 @@ cd ai-code-assistant
 Установка зависимостей
 pip install -r requirements.txt
 
+Создайте файл .env
 Настройка переменных окружения
 APP_NAME="AI Code Assistant"
 OPENAI_API_KEY=your-api-key-here
@@ -44,3 +45,8 @@ MODEL_NAME=gpt-3.5-turbo
 
 Запуск сервера
 uvicorn main:app --reload --port 8000
+
+Интерактивная документация
+Swagger UI: http://localhost:8000/docs
+
+ReDoc: http://localhost:8000/redoc
